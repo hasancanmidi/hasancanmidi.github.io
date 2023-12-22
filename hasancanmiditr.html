@@ -8,57 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon-96x96.png">
-
     <title>Hasan Can Midi</title>
-    <style>
-        body {
-            padding: 5% 15%;
-            margin: 0;
-            text-align: center;
-            background-color: white;
-            color: black;
-            transition: background-color 1s ease, color 1s ease;
-            font-family:'Montserrat', sans-serif;;
-
-        }
-
-        a {
-            color: black;
-        }
-
-        a:hover {
-            color: black;
-        }
-
-        .dark-mode {
-            background-color: black;
-            color: white;
-        }
-
-        .dark-mode a {
-            color: white;
-        }
-
-        .dark-mode a:hover {
-            color: white;
-        }
-
-        .horizontal {
-            display: flex;
-            flex-direction: row;
-            list-style-type: none;
-            justify-content: center;
-        }
-
-        button {
-            float: left;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="d-flex justify-content-between text-decoration-none">
+    <div class="d-flex justify-content-between text-decoration-none mb-4">
         <button><a href="index.html" class=" text-decoration-none">English</a></button>
         <button onclick="myFunction()"><i class="bi bi-moon-fill"></i>
             <i class="bi bi-sun-fill"></i></i></button>
@@ -134,7 +90,7 @@
             </ul>
         </div>
         <p class="fw-bolder mt-5 fs-4">STAJ DENEYİMLERİM</p>
-        <div class="mt-4">
+        <div class="mt-5">
             <ul class="horizontal d-flex justify-content-between m-0">
                 <li><strong>Beto Yazılım</strong> ,Trabzon</li>
                 <li>Mart 2019</li>
@@ -147,7 +103,7 @@
                     adım attığım işyeri. Edindiğim beceriler: Html, Css ve ilk iOS bilgisayar deneyimi.</li>
             </ul>
         </div>
-        <div class="mt-4">
+        <div class="mt-5">
             <ul class="horizontal d-flex justify-content-between m-0">
                 <li><strong>Tierra Techo Trabajo</strong> ,İtalya</li>
                 <li>Kasım 2021</li>
@@ -161,7 +117,7 @@
                     HTML, CSS ve JavaScript kullanarak web tasarımları oluşturduk.</li>
             </ul>
         </div>
-        <div class="mt-4">
+        <div class="mt-5">
             <ul class="horizontal d-flex justify-content-between m-0">
                 <li><strong>Afad</strong> ,Kahramanmaraş</li>
                 <li>Şubat 2023</li>
@@ -202,9 +158,152 @@
                 <li class="ms-3">Okuma <strong>B1</strong></li>
             </ul>
         </div>
-        <p class="fw-bolder mt-5 fs-4">GITHUB <i class="bi bi-github"></p>
-        <img src="http://ghchart.rshah.org/hasancanmidi" alt="hasancanmidi's Github chart" />
+        <p class="fw-bolder mt-5 fs-4">GITHUB <i class="bi bi-github"></i></p>
+        <img class="github" src="http://ghchart.rshah.org/hasancanmidi" style="width: 80%; height: 5%;"
+            alt="hasancanmidi's Github chart" />
+        <p class="fw-bolder mt-5 fs-4">PROJELER</p>
 
+        <div class="container text-center ">
+            <div class="card-group">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mb-3 card-project">
+                            <img src="github-wallpaper-scaled.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Araba Kiralama Projesi</h5>
+                                <p class="card-text">The projects where we received training on C#, Layered Architecture, .NET, LINQ, and React from Engin Demiroğ's team.</p>
+                                <h6 class="card-title">Katkıda Bulunanlar</h6>
+                                <ul class="horizontal-2">
+                                    <li><a href="https://github.com/hasancanmidi" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/74327275?s=64&v=4"
+                                                class="rounded-circle me-4" style="width: 35px; height: 35px;"
+                                                alt="..."></a></li>
+                                </ul>
+                                <p class="card-text"><small class="text-body-secondary"><a
+                                            href="https://github.com/hasancanmidi/Tobeto-EnginDemirog-Academy/tree/main/nLayeredApp">Proje
+                                            Linki </a><i class="bi bi-github"></i></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mb-3 card-project">
+                            <img src="github-wallpaper-scaled.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Tobeto Projesi</h5>
+                                <p class="card-text">Tobeto eğitim kurumunun web sitesinin Back-End ve Front-End'ini ekibimizle yapıyoruz.</p>
+                                <h6 class="card-title">Katkıda Bulunanlar</h6>
+                                <ul class="horizontal-2">
+                                    <li><a href="https://github.com/guluzarkarakoc" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/146974426?s=64&v=4"
+                                                class="rounded-circle" style="width: 35px; height: 35px;" alt="..."></a>
+                                    </li>
+                                    <li><a href="https://github.com/hasancanmidi" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/74327275?s=64&v=4"
+                                                class="rounded-circle" style="width: 35px; height: 35px;" alt="..."></a>
+                                    </li>
+                                    <li><a href="https://github.com/Ayse-nur23" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/77544969?s=64&v=4"
+                                                class="rounded-circle" style="width: 35px; height: 35px;" alt="..."></a>
+                                    </li>
+                                    <li><a href="https://github.com/fdemirag" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/123840399?s=64&v=4"
+                                                class="rounded-circle" style="width: 35px; height: 35px;" alt="..."></a>
+                                    </li>
+                                    <li><a href="https://github.com/ahmetgl1" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/81171832?s=64&v=4"
+                                                class="rounded-circle" style="width: 35px; height: 35px;" alt="..."></a>
+                                    </li>
+                                    <li><a href="https://github.com/hasankesil" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/118971537?s=70&v=4"
+                                                class="rounded-circle me-4" style="width: 35px; height: 35px;"
+                                                alt="..."></a></li>
+                                </ul>
+                                <p class="card-text"><small class="text-body-secondary"><a
+                                            href="https://github.com/hasancanmidi/Tobeto-EnginDemirog-Academy/tree/main/nLayeredApp">Proje
+                                            Linki </a> <i class="bi bi-github"></i></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mb-3 card-project">
+                            <img src="github-wallpaper-scaled.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Araba Kiralama Projesi</h5>
+                                <p class="card-text">Engin demiroğ'un ekibinden C#, Katmanlı Mimari, .Net ,Linq ve React Eğitimi gördüğümüz projeler.</p>
+                                <h6 class="card-title">Katkıda Bulunanlar</h6>
+                                <ul class="horizontal-2">
+                                    <li><a href="https://github.com/hasancanmidi" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/74327275?s=64&v=4"
+                                                class="rounded-circle me-4" style="width: 35px; height: 35px;"
+                                                alt="..."></a></li>
+                                </ul>
+                                <p class="card-text"><small class="text-body-secondary"><a
+                                            href="https://github.com/hasancanmidi/Tobeto-EnginDemirog-Academy/tree/main/nLayeredApp">Proje
+                                            Linki</a><i class="bi bi-github"></i></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mb-3 card-project">
+                            <img src="github-wallpaper-scaled.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Deressa Güzellik Salonu</h5>
+                                <p class="card-text">Henüz Başlamadı...</p>
+                                <h6 class="card-title">Katkıda Bulunanlar</h6>
+                                <ul class="horizontal-2">
+                                    <li><a href="https://github.com/hasancanmidi" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/74327275?s=64&v=4"
+                                                class="rounded-circle me-1" style="width: 35px; height: 35px;"
+                                                alt="..."></a></li>
+                                    <li><a href="https://github.com/necla-sabahoglu" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/51532322?v=4"
+                                                class="rounded-circle me-4" style="width: 35px; height: 35px;"
+                                                alt="..."></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mb-3 card-project">
+                            <img src="github-wallpaper-scaled.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">E Ticaret Projesi</h5>
+                                <p class="card-text">Engin demiroğ'un ekibinden C#, Katmanlı Mimari, .Net ,Linq ve React Eğitimi gördüğümüz projeler.</p>
+                                <h6 class="card-title">Katkıda Bulunanlar</h6>
+                                <ul class="horizontal-2">
+                                    <li><a href="https://github.com/hasancanmidi" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/74327275?s=64&v=4"
+                                                class="rounded-circle me-4" style="width: 35px; height: 35px;"
+                                                alt="..."></a></li>
+                                </ul>
+                                <p class="card-text"><small class="text-body-secondary"><a
+                                            href="https://github.com/hasancanmidi/Tobeto-EnginDemirog-Academy/tree/main/nLayeredApp">Proje
+                                            Linki </a><i class="bi bi-github"></i></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card mb-3 card-project">
+                            <img src="github-wallpaper-scaled.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">E-Ticaret Projesi 2</h5>
+                                <p class="card-text">Engin demiroğ'un ekibinden C#, Katmanlı Mimari, .Net ,Linq ve React Eğitimi gördüğümüz projeler.</p>
+                                <h6 class="card-title">Katkıda Bulunanlar</h6>
+                                <ul class="horizontal-2">
+                                    <li><a href="https://github.com/hasancanmidi" target="_blank"><img
+                                                src="https://avatars.githubusercontent.com/u/74327275?s=64&v=4"
+                                                class="rounded-circle me-4" style="width: 35px; height: 35px;"
+                                                alt="..."></a></li>
+                                </ul>
+                                <p class="card-text"><small class="text-body-secondary"><a
+                                            href="https://github.com/hasancanmidi/Tobeto-EnginDemirog-Academy/tree/main/nLayeredApp">Proje
+                                            Linki </a><i class="bi bi-github"></i></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

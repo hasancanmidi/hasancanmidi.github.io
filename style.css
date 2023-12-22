@@ -1,0 +1,62 @@
+body {
+    padding: 5% 15%;
+    margin: 0;
+    text-align: center;
+    background-color: white;
+    color: black;
+    transition: background-color 1s ease, color 1s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode a {
+    color: white;
+}
+
+.dark-mode .card-project {
+    color: white;
+    background-color: black;
+    border: solid 1px white;
+}
+
+.dark-mode a:hover {
+    color: white;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+.horizontal-2 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+button {
+    float: left;
+}
+
+@media screen and (min-width:360px) and (max-width:1024px) {
+    .horizontal{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    }
+}
