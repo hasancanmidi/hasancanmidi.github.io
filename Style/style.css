@@ -59,6 +59,27 @@ button {
     transform: scale(1.03); 
   }
 
+  .card-group .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-group .col-lg-4 {
+    display: flex;
+    flex: 1 0 33%; /* Her sütunun genişliği yaklaşık %33 olacak */
+}
+
+.card-group .card {
+    flex: 1; /* Her kart esnek bir şekilde genişleyecek */
+    display: flex;
+    flex-direction: column; /* İçerik dikey yönde sıralanacak */
+}
+
+.card-group .card-body {
+    flex-grow: 1; /* card-body, kartın geri kalan alanını dolduracak */
+}
+
+
 @media screen and (min-width:360px) and (max-width:1024px) {
     .horizontal{
     display: flex;
